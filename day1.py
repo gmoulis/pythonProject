@@ -91,3 +91,52 @@ print(fruits[1])
 list1 = [23, 14, 16, "hello", True]
 print(len(list1))
 
+v=5
+w=10
+print(v+w)
+
+v=5
+w=10
+print(v-w)
+
+A = "Hello"
+B = "I am"
+C = "Gaëlle"
+print(A,B,C)
+
+#Boolean
+D = 50
+E = 60
+if D>E:
+    print("E is greater than D") #Respecter l'espace. Si pas d'espace, message d'erreur
+else:
+    print("D is smaller than E")
+
+F = 60
+G = 60
+if F>G:
+    print("F is greater than G")
+elif F == G:
+    print("F is equal to G")
+else:
+    print("F is smaller to G")
+
+I = 70
+J = 80
+print("I is greater") if I>J else print("J is greater") #short hand
+
+K = 90
+L = 90
+print("K is greater") if K>L else print("equal") if K==L else print("J is greater")
+
+cars = ["Suzuki", "BMW", "Toyota"]
+x = cars[2]
+cars.append("Honda") #Ajout une valeur
+cars.pop(1) #Enlève
+cars.remove("Toyota") #Enlève
+cars.clear() #Enlève tout
+print(x)
+print(len(cars))
+
+
+
